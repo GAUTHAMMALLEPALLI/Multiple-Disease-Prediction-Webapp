@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #load the model
-loaded_model=pickle.load(open('D:/project\GAUTHAM_PRO1/trained_model.sav','rb'))
+loaded_model=pickle.load(open('trained_model.sav','rb'))
 
 def diabetes_prediction(input_symptoms):
     
